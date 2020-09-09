@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!--设值控制台日志格式-->
+    <appender name="consoleLog" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>
+                %d-%msg%n
+            </pattern>
+        </layout>
+    </appender>
+
+    <!--输出Info日志到文件-->
+    <appender name="fileInfoLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <!--禁止Error-->
+            <onMatch>DENY</onMatch>
+            <!--反之接受,执行<appender name="fileErrorLog" 片段-->
+            <onMismatch>ACCEPT</onMismatch>
+        </filter>
+
+        <encoder>
+            <pattern>
+                %d-%msg%n
+            </pattern>
+        </encoder>
+
+        <!--滚动策略-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--日志输入路径-->
+            <fileNamePattern>E:\0-test\info.%d.log</fileNamePattern>
+        </rollingPolicy>
+    </appender>
+
+    <!--输出Error日志到文件-->
+    <appender name="fileErrorLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+        </filter>
+
+        <encoder>
+            <pattern>
+                %d-%msg%n
+            </pattern>
+        </encoder>
+
+        <!--滚动策略-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--日志输入路径-->
+            <fileNamePattern>E:\0-test\error.%d.log</fileNamePattern>
+        </rollingPolicy>
+    </appender>
+
+
+    <!--引用-->
+    <root level="info">
+        <appender-ref ref="consoleLog"/>
+        <appender-ref ref="fileInfoLog"/>
+        <appender-ref ref="fileErrorLog"/>
+    </root>
+</configuration>
