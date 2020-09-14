@@ -27,6 +27,6 @@ public class ProductCategoryVo {
 
     /** 商品信息 */
     @JsonProperty("foods")
-    private List<ProductInfoVo> productInfos;
+    private List<com.example.springboot.vo.ProductInfoVo> productInfos;
 
 }

@@ -1,10 +1,10 @@
 package com.example.springboot.repository;
 
-import com.example.springboot.domain.OrderDetail;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import com.example.springboot.domain.OrderDetail;
 import java.util.List;
 
 /**
