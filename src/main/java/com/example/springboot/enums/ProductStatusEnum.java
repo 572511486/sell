@@ -13,9 +13,9 @@ import lombok.Getter;
  */
 @Getter
 public enum ProductStatusEnum {
-	// 0 上架 1 下架
-	UP(0,"上架"),
-	DOWN(1,"下架");
+	// 1 上架  0下架
+	UP(1,"上架"),
+	DOWN(0,"下架");
 
 	private final Integer code;
 	private final String display;

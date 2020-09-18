@@ -8,6 +8,15 @@ spring:
   jpa:
     show-sql: true
 
+
 # 服务器根节点
 server:
-  context-path: /sell
+#  context-path: /sell
+  port: 80
+
+oauth:
+  wx:
+    appid: wx6ddc98fa2c29aa3d
+    appsecret: 1cfd3b04d4af45f9d6b7008e8b837f3f
+  callback:
+    http: http://fzh.nat300.top/wx/callback
