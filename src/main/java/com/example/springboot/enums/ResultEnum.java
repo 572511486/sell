@@ -31,6 +31,8 @@ public enum ResultEnum {
 	ORDER_UPDATE_ERROR(15,"订单更新失败"),
 
 	PAY_STATU_ERROR(16,"订单支付状态不正确"),
+
+	WTCHAT_OAUTH_ERROR(17,"微信授权异常"),
 	;
 
 	private final Integer code;

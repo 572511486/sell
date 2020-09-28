@@ -10,13 +10,16 @@ spring:
 
 
 # 服务器根节点
-server:
-#  context-path: /sell
-  port: 80
+#server:
+##  context-path: /sell
+#  port: 80
 
-oauth:
-  wx:
-    appid: wx6ddc98fa2c29aa3d
-    appsecret: 1cfd3b04d4af45f9d6b7008e8b837f3f
-  callback:
-    http: http://fzh.nat300.top/wx/callback
+wechat:
+  mpAppid: wxc0088e8c934f4f4c
+  mpAppsecret: 2f263b695ca15b181cf7a9b7b65ecccc
+  callback: http://fzh.nat300.top/wechat/callback
+projectUrl:
+  wechatMpAuthorize: http://fzh.nat300.top
+  wechatOpenAuthorize: http://fzh.nat300.top
+  sell: http://fzh.nat300.top
+
