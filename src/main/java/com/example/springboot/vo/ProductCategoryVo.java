@@ -9,7 +9,7 @@ import java.util.List;
  * @filename:       ProductCategoryVo
  * @copyright:      版权所有 2020-2025 南京国睿信维软件有限公司
  * @version:        V1.0
- * @author:         ZF
+ * @author:         FZH
  * @createtime:     2020年08月25日18:32
  * @description:   
  *       产品类目页面返回实体类

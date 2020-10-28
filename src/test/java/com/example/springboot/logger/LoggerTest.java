@@ -10,7 +10,7 @@ import org.springframework.test.context.junit4.SpringRunner;
  * 文件名称:       LoggerTest
  * 版权:          版权所有 2020-2025 南京国睿信维软件有限公司
  * 文件版本号:     V1.0
- * 作者:          ZF
+ * 作者:          FZH
  * 创建时间:      2020年08月18日12:34
  * 描述：   
  *    测试日志

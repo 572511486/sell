@@ -6,7 +6,7 @@ import lombok.Getter;
  * @filename:       ResultVoEnum
  * @copyright:      版权所有 2020-2025 南京国睿信维软件有限公司
  * @version:        V1.0
- * @author:         ZF
+ * @author:         FZH
  * @createtime:     2020年08月25日18:29
  * @description:   
  *       页面返回对象标识枚举

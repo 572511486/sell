@@ -9,14 +9,14 @@ import java.util.List;
  * @filename:       ProductInfoRepository
  * @copyright:      版权所有 2020-2025 南京国睿信维软件有限公司
  * @version:        V1.0
- * @author:         ZF
+ * @author:         FZH
  * @createtime:     2020年08月24日22:20
  * @description:   
  *       商品信息数据库接口
  */
 public interface ProductInfoRepository extends JpaRepository<ProductInfo,String> {
 	/**
-	 * @author 			ZF
+	 * @author 			FZH
 	 * @date 			2020/8/24
 	 * @parameter 		[status]
 	 * @return 			java.util.List<com.example.springboot.domain.ProductInfo>
