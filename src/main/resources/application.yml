@@ -10,16 +10,16 @@ spring:
 
 
 # 服务器根节点
-#server:
-##  context-path: /sell
+server:
+#  context-path: /sell
 #  port: 80
 
 wechat:
   mpAppid: wxc0088e8c934f4f4c
   mpAppsecret: 2f263b695ca15b181cf7a9b7b65ecccc
-  callback: http://fzh.nat300.top/wechat/callback
+  callback: http://www.rousicai.cn/wechat/callback
 projectUrl:
-  wechatMpAuthorize: http://fzh.nat300.top
-  wechatOpenAuthorize: http://fzh.nat300.top
-  sell: http://fzh.nat300.top
+  wechatMpAuthorize: http://www.rousicai.cn
+  wechatOpenAuthorize: http://www.rousicai.cn
+  sell: http://www.rousicai.cn
 

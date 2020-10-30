@@ -53,7 +53,7 @@ public class WechatController {
 		try {
 			wxMpOAuth2AccessToken = wxMpService.oauth2getAccessToken(code);
 		} catch (WxErrorException e) {
-			log.info("【用户信息】e==>{}" ,e);
+			log.info("【用户信息】e==>{}" ,e.getLocalizedMessage());
 			throw new SellException(ResultEnum.WTCHAT_OAUTH_ERROR.getCode(), e.getError().getErrorMsg());
 		}
 		log.info("【用户信息】openid={}，accessToken={}", wxMpOAuth2AccessToken.getOpenId(), wxMpOAuth2AccessToken.getAccessToken());
