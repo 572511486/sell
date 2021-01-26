@@ -9,14 +9,14 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @filename:       OrderMasterRepository
  * @copyright:      版权所有 2020-2025 南京国睿信维软件有限公司
  * @version:        V1.0
- * @author:         FZH
+ * @author:         ZF
  * @createtime:     2020年09月03日12:47
  * @description:   
  *       商品主表数据库接口
  */
 public interface OrderMasterRepository extends JpaRepository<OrderMaster,String> {
 	/**
-	 * @author 			FZH
+	 * @author 			ZF
 	 * @date 			2020/9/3
 	 * @parameter 		[buyerOpenId, pageable]
 	 * @return 			org.springframework.data.domain.Page<com.example.springboot.domain.OrderMaster>
@@ -26,7 +26,7 @@ public interface OrderMasterRepository extends JpaRepository<OrderMaster,String>
 	Page<OrderMaster> findByBuyerOpenid(String buyerOpenId, Pageable pageable);
 
 	/**
-	 * @author 		   FZH
+	 * @author 		   ZF
 	 * @date 		   2020/9/8
 	 * @parameter 	   [buyerOpenId, orderId]
 	 * @return 		   com.example.springboot.domain.OrderMaster

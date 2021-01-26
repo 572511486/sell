@@ -9,7 +9,7 @@ import java.math.BigDecimal;
  * @filename:       ProductInfoVo
  * @copyright:      版权所有 2020-2025 南京国睿信维软件有限公司
  * @version:        V1.0
- * @author:         FZH
+ * @author:         ZF
  * @createtime:     2020年08月25日18:36
  * @description:   
  *      商品信息页面返回实体

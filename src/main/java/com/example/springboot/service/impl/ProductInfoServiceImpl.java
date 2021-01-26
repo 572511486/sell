@@ -19,7 +19,7 @@ import java.util.List;
  * @filename:       ProductInfoServiceImpl
  * @copyright:      版权所有 2020-2025 南京国睿信维软件有限公司
  * @version:        V1.0
- * @author:         FZH
+ * @author:         ZF
  * @createtime:     2020年08月24日22:55
  * @description:   
  *                      
@@ -31,7 +31,7 @@ public class ProductInfoServiceImpl implements ProductInfoService {
 	private ProductInfoRepository repository;
 	
 	/**
-	 * @author 			FZH
+	 * @author 			ZF
 	 * @date 			2020/8/24 
 	 * @parameter 		[]
 	 * @return 			java.util.List<com.example.springboot.domain.ProductInfo> 
@@ -44,7 +44,7 @@ public class ProductInfoServiceImpl implements ProductInfoService {
 	}
 
 	/**
-	 * @author 			FZH
+	 * @author 			ZF
 	 * @date 			2020/8/24 
 	 * @parameter 		[]
 	 * @return 			java.util.List<com.example.springboot.domain.ProductInfo> 
@@ -57,7 +57,7 @@ public class ProductInfoServiceImpl implements ProductInfoService {
 	}
 
 	/**
-	 * @author 			FZH
+	 * @author 			ZF
 	 * @date 			2020/8/25
 	 * @parameter 		[pageable]
 	 * @return 			org.springframework.data.domain.Page<com.example.springboot.domain.ProductInfo>
@@ -80,7 +80,7 @@ public class ProductInfoServiceImpl implements ProductInfoService {
 	}
 
 	/**
-	 * @author 			FZH
+	 * @author 			ZF
 	 * @date 			2020/9/4
 	 * @parameter 		[carDtoList]
 	 * @return 			void
@@ -101,7 +101,7 @@ public class ProductInfoServiceImpl implements ProductInfoService {
 	}
 
 	/**
-	 * @author 			FZH
+	 * @author 			ZF
 	 * @date 			2020/9/4
 	 * @parameter 		[carDtoList]
 	 * @return 			void

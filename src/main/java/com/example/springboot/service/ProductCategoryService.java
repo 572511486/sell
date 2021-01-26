@@ -8,14 +8,14 @@ import java.util.List;
  * @filename:       test
  * @copyright:      版权所有 2020-2025 南京国睿信维软件有限公司
  * @version:        V1.0
- * @author:         FZH
+ * @author:         ZF
  * @createtime:     2020年08月19日22:42
  * @description：
  *       商品类目Service
  */
 public interface ProductCategoryService {
 	/**
-	 * @author 			FZH
+	 * @author 			ZF
 	 * @date 			2020/8/19 
 	 * @parameter 		[categoryId]
 	 * @return 			com.example.springboot.domain.ProductCategory
@@ -25,7 +25,7 @@ public interface ProductCategoryService {
 	ProductCategory findOne(Integer categoryId);
 
 	/**
-	 * @author 			FZH
+	 * @author 			ZF
 	 * @date 			2020/8/19
 	 * @parameter 		[]
 	 * @return 			java.util.List<com.example.springboot.domain.ProductCategory>
@@ -35,7 +35,7 @@ public interface ProductCategoryService {
 	List<ProductCategory> findAll();
 
 	/**
-	 * @author 			FZH
+	 * @author 			ZF
 	 * @date 			2020/8/19
 	 * @parameter 		[categoryTypeList]
 	 * @return 			java.util.List<com.example.springboot.domain.ProductCategory>
@@ -45,7 +45,7 @@ public interface ProductCategoryService {
 	List<ProductCategory> findByCategoryTypeIn(List<Integer> categoryTypeList);
 
 	/**
-	 * @author 			FZH
+	 * @author 			ZF
 	 * @date 			2020/8/19
 	 * @parameter 		[category]
 	 * @return 			com.example.springboot.domain.ProductCategory

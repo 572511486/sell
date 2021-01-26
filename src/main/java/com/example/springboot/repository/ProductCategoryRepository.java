@@ -5,7 +5,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
 /**
- * @author 			FZH
+ * @author 			ZF
  * @date 			2020/8/19 
  * @parameter 		
  * @return 			 
@@ -14,7 +14,7 @@ import java.util.List;
  **/
 public interface ProductCategoryRepository extends JpaRepository<ProductCategory,Integer> {
 	/**
-	 * @author 			FZH
+	 * @author 			ZF
 	 * @date 			2020/9/3
 	 * @parameter 		[categoryTypeList]
 	 * @return 			java.util.List<com.example.springboot.domain.ProductCategory>

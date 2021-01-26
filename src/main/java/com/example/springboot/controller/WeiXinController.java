@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @filename: WxLoginController
  * @copyright: 版权所有 2020-2025 南京国睿信维软件有限公司
  * @version: V1.0
- * @author: FZH
+ * @author: ZF
  * @createtime: 2020年09月18日14:32
  * @description:
  *           测试使用

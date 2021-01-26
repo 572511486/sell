@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
  * @filename:       OrderDetail2CarDto
  * @copyright:      版权所有 2020-2025 南京国睿信维软件有限公司
  * @version:        V1.0
- * @author:         FZH
+ * @author:         ZF
  * @createtime:     2020年09月06日15:53
  * @description:   
  *          订单详情转购物车
@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 public class OrderDetail2CarDto {
 
 	/**
-	 * @author 		   FZH
+	 * @author 		   ZF
 	 * @date 		   2020/9/6
 	 * @parameter 	   [orderDetail]
 	 * @return 		   com.example.springboot.dto.CarDto
@@ -30,7 +30,7 @@ public class OrderDetail2CarDto {
 	}
 
 	/**
-	 * @author 		   FZH
+	 * @author 		   ZF
 	 * @date 		   2020/9/6
 	 * @parameter 	   [orderDetails]
 	 * @return 		   java.util.List<com.example.springboot.dto.CarDto>

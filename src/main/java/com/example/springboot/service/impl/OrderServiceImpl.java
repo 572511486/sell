@@ -34,7 +34,7 @@ import java.util.stream.Collectors;
  * @filename:       OrderServiceImpl
  * @copyright:      版权所有 2020-2025 南京国睿信维软件有限公司
  * @version:        V1.0
- * @author:         FZH
+ * @author:         ZF
  * @createtime:     2020年09月03日20:25
  * @description:   
  *      订单service层实现类
@@ -52,7 +52,7 @@ public class OrderServiceImpl implements OrderService {
 	private ProductInfoService productInfoService;
 
 	/**
-	 * @author 		   FZH
+	 * @author 		   ZF
 	 * @date 		   2020/9/4
 	 * @parameter 	   [orderDto]
 	 * @return 		   com.example.springboot.dto.OrderDto

@@ -22,7 +22,7 @@ import java.net.URLEncoder;
  * @filename:       cla
  * @copyright:      版权所有 2020-2025 南京国睿信维软件有限公司
  * @version:        V1.0
- * @author:         FZH
+ * @author:         ZF
  * @createtime:     2020年09月24日13:55
  * @description:   
  *                      
@@ -64,7 +64,7 @@ public class WechatController {
 	}
 
 	/**
-	 * @author 		   FZH   
+	 * @author 		   ZF
 	 * @date 		   2020/9/28
 	 * @parameter 	   [returnUrl]
 	 * @return 		   java.lang.String 
@@ -80,7 +80,7 @@ public class WechatController {
 	}
 
 	/**
-	 * @author 		   FZH
+	 * @author 		   ZF
 	 * @date 		   2020/9/28
 	 * @parameter 	   [code, returnUrl]
 	 * @return 		   java.lang.String

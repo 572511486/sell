@@ -7,7 +7,7 @@ import com.example.springboot.vo.ResultVo;
  * @filename:       ResoultVoUtil
  * @copyright:      版权所有 2020-2025 南京国睿信维软件有限公司
  * @version:        V1.0
- * @author:         FZH
+ * @author:         ZF
  * @createtime:     2020年08月26日13:34
  * @description:   
  *        页面返回数据帮助类
@@ -15,7 +15,7 @@ import com.example.springboot.vo.ResultVo;
 public class ResultVoUtil {
 
 	/**
-	 * @author 			FZH
+	 * @author 			ZF
 	 * @date 			2020/8/26
 	 * @parameter 		[msg, data]
 	 * @return 			com.example.springboot.vo.ResultVo<T>
@@ -31,7 +31,7 @@ public class ResultVoUtil {
 	}
 
 	/**
-	 * @author 			FZH
+	 * @author 			ZF
 	 * @date 			2020/8/26
 	 * @parameter 		[msg, data]
 	 * @return 			com.example.springboot.vo.ResultVo<T>
@@ -47,7 +47,7 @@ public class ResultVoUtil {
 	}
 
 	/**
-	 * @author 			FZH
+	 * @author 			ZF
 	 * @date 			2020/8/26
 	 * @parameter 		[code, msg, data]
 	 * @return 			com.example.springboot.vo.ResultVo

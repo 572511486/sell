@@ -11,14 +11,14 @@ import java.util.stream.Collectors;
  * @filename:       OrderMaster2OrderDto
  * @copyright:      版权所有 2020-2025 南京国睿信维软件有限公司
  * @version:        V1.0
- * @author:         FZH
+ * @author:         ZF
  * @createtime:     2020年09月06日14:54
  * @description:   
  *        OrderMaste TO OrderDto 转换器
  */
 public class OrderMaster2OrderDto {
 	/**
-	 * @author 		   FZH
+	 * @author 		   ZF
 	 * @date 		   2020/9/6
 	 * @parameter 	   [orderMaster]
 	 * @return 		   com.example.springboot.dto.OrderDto
@@ -32,7 +32,7 @@ public class OrderMaster2OrderDto {
 	}
 
 	/**
-	 * @author 		   FZH
+	 * @author 		   ZF
 	 * @date 		   2020/9/6
 	 * @parameter 	   [orderMasterList]
 	 * @return 		   java.util.List<com.example.springboot.dto.OrderDto>

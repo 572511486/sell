@@ -6,7 +6,7 @@ import java.util.Random;
  * @filename:       KeyUtil
  * @copyright:      版权所有 2020-2025 南京国睿信维软件有限公司
  * @version:        V1.0
- * @author:         FZH
+ * @author:         ZF
  * @createtime:     2020年09月04日13:56
  * @description:   
  *         数据库主键帮助类
@@ -14,7 +14,7 @@ import java.util.Random;
 public class KeyUtil {
 
 	/**
-	 * @author 			FZH
+	 * @author 			ZF
 	 * @date 			2020/9/4
 	 * @parameter 		[]
 	 * @return 			java.lang.String

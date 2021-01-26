@@ -16,7 +16,7 @@ import java.util.List;
  * @filename:       OrderDto
  * @copyright:      版权所有 2020-2025 南京国睿信维软件有限公司
  * @version:        V1.0
- * @author:         FZH
+ * @author:         ZF
  * @createtime:     2020年09月03日20:14
  * @description:   
  *      订单信息Dto dto:data transfer object 数据传输对象
